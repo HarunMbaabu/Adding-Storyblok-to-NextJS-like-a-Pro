@@ -173,6 +173,17 @@ We need to set the Real Path to / {2} because we want to display the story with 
 ### **Creating the components**
 In the next step, we have to create the components that already exist in the Home story: Page, Teaser, Grid and Feature. Create a new folder components with the following files:
 
+**1). components/Page.js**
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/neco2vmp922n4msys9ca.jpg) 
+
+**2). components/Teaser.js** 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/86xs8aellql5snpj8tle.png)
+
+**3). components/Grid.js **
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/osc81u38t710ggdkfasc.png)
+
+**4). components/Feature.js **  
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hgxwivt5vagpl9qi5mvv.png)
 
 By using sbEditable with any component, we can make them loaded and clickable in Storyblok Visual Editor. To do it we should include the already installed @storyblok/storyblok-editable package.
 
