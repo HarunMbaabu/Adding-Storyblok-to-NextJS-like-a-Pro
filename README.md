@@ -201,16 +201,7 @@ In this article, we’ve loaded our content from Storyblok to NextJS, but we are
 
 Also i would advice that you take your skills to the next step and learn how to take your stories to production using services like, Netlify, digital ocean's app platform, heroku, vercel, etc.  
 
-Personally am rebuilding my personal portfolio using Stroybloc and NextJS and i will be writing an article about the experiences and all the new things that i will have learn by then. 
 
-Cheers 🥂 Happy Coding  🎊
+I have also written, an article guide version of this repository which you can access through [this link!](https://dev.to/grayhat/adding-headless-cms-to-nextjs-like-a-pro-2ccp-temp-slug-9306760/edit) i hope you will enjoy reading it 🥳
 
-  
-
-
- 
-
- 
-
- 
-
+Cheers 🥂 Happy Coding  🎊 
