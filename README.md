@@ -1,5 +1,7 @@
 ## **Adding Storyblok to NextJS Like A Pro**
 
+![image](https://user-images.githubusercontent.com/51136314/144724865-f3b528e1-5613-46d9-85b7-7f726aa06e57.png)
+
 The official website describes **Storyblok** in the following terms:
 
 > Storyblok is the only Headless Content Management System with a Visual Editor. It provides developers with all the flexibility they need to build reliable and fast websites, while giving content creators with no coding skills the ability to edit content independently of the developer.
