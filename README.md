@@ -1,4 +1,5 @@
 ## **Adding Storyblok to NextJS Like A Pro**
+---
 
 ![image](https://user-images.githubusercontent.com/51136314/144724865-f3b528e1-5613-46d9-85b7-7f726aa06e57.png)
 
@@ -15,7 +16,9 @@ Storyblok combines its straightforward developing environment for developers and
 ### Why use headless CMS? 
 Because a Headless CMS doesn't restrict you to a specific technology, like PHP and MySQL in the case of WordPress, you and your team are free to build projects with preferred options like having a CMS for React, Angular, Vue, and so on.
 
+---
 ### **What is NextJS?** 
+---
 
 NextJS is a ReactJS frontend framework created by [Vercel](https://vercel.com/) team that enables server side rendering and static site generation, it helps software engineers to create fast search engine optimised react apps with zero configuration, so we can view it as a wrapper around react framework that enables reactJS to run on the server. 
 
@@ -27,7 +30,9 @@ In layman's language NextJS is a framework that enables developers to build reac
 
 Use [this](https://medium.com/@auth0/next-js-practical-introduction-navigation-and-routing-17c9be65bb12) article to read more about navigation and routing in NextJS.
 
+---
 ### **Requirements**
+---
 
 To follow this tutorial here is a list of requirements that you need to have:
 
@@ -39,8 +44,9 @@ To follow this tutorial here is a list of requirements that you need to have:
 
 - A new Storyblok space, a space in storyblok is a content repository, a place to keep all the content related to one project.  
 
-
+---
 ### **Environment Setup**
+---
 
 Let's start by creating a new NextJS application, you can use npx or yarn to create a new nextjs application as in the example below, in the following example i have created a new NextJS application called **demoapp**, note that this will create a new folder in your current directory call **demoapp**.  
 
