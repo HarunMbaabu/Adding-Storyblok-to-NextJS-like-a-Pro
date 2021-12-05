@@ -190,6 +190,7 @@ We need to set the Real Path to because we want to display the story with the sl
 
 
 ### **Creating the components**
+
 In the next step, we have to create the components that already exist in the Home story: Page, Teaser, Grid and Feature. Create a new folder components with the following files:
 ---
 **1). components/Page.js**
