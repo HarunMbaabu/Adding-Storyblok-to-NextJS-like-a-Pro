@@ -179,14 +179,14 @@ export async function getStaticProps({ preview = false }) {
 ``` 
  
 ### **Setting the Preview Url**
-In Storyblok app, go to Settings {1} and set the preview URL to our development server http://localhost:3000/ {2}. 
+In Storyblok app, go to Settings and set the preview URL to our development server http://localhost:3000/. 
 
 
-Let's open our Home Story now by clicking on Content {1} and then the Home Story {2}. 
+Let's open our Home Story now by clicking on Content and then the Home Story. 
 
 
 ### **Setting the Real Path**
-We need to set the Real Path to / {2} because we want to display the story with the slug home under our base path / and not /home. Once you set the preview URL and the real path, you should be able to see your development server inside Storyblok showing the name of the story Home. 
+We need to set the Real Path to because we want to display the story with the slug home under our base path / and not /home. Once you set the preview URL and the real path, you should be able to see your development server inside Storyblok showing the name of the story Home. 
 
 
 ### **Creating the components**
