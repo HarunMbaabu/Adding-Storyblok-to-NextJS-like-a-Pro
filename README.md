@@ -107,10 +107,18 @@ The above two paragraphs are adapted from the article [add a headless CMS to Nex
 We will need to create a new client to access our Storyblok API. Create a file called storyblok.js inside a folder called lib, with the following code.
 
 
-![simple app](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lf3gb0t3k078qslv10wd.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yxblr57xvy8zpphglicg.png)
  
 
-In Storyblok app, Create a new space and retrieve your preview token {3} from your Space Settings {1} under API-Keys {2}. Add the token to your Storyblok client in storyblok.js as the accessToken directly, or from an .env file. 
+In Storyblok app, Create a new space and retrieve your preview token.
+You will get your preview token under under your Space Settings the API-Keys section as shown below.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fwnf237yt23njmegrjds.png)
+ 
+
+Add the token to your Storyblok client in **storyblok.js** as the preview token key directly, or from an **.env** file.
+
+> Remember to add the correct preview token key, observer white spaces and letters casing. 
 
 ### Fetching Our Stories
 To fetch data, we will make use of Next.js getStaticProps function. Add the following code to the pages/index.js file. This will load our home story using the client we just created and display the name of the story.
