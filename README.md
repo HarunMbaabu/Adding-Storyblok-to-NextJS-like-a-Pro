@@ -52,7 +52,7 @@ Let's start by creating a new NextJS application, you can use npx or yarn to cre
 
 ```javascript
 >>> npx create-next-app demoapp
-/* OR */
+/* or */
 >>> yarn create next-app demoapp
 ``` 
 
@@ -62,7 +62,7 @@ Next, we need to install the following packages storyblok-js-client and @storybl
 >>> cd demoapp
  
 >>> npm install storyblok-js-client @storyblok/storyblok-editable axios
-
+/* or */
 >>> yarn add storyblok-js-client @storyblok/storyblok-editable axios
 ``` 
 
@@ -71,7 +71,7 @@ Then, let's start the development server, again note that you can use npm or yar
 
 ```javascript 
 >>> npm run dev
-
+/* or */
 >>> yarn dev
 ```  
 
