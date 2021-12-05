@@ -104,7 +104,7 @@ The above two paragraphs are adapted from the article [add a headless CMS to Nex
 
 ### **Now let create the Storyblok Client**
 
-We will need to create a new client to access our Storyblok API. Create a file called storyblok.js inside a folder called lib, with the following code.
+We will need to create a new client to access our Storyblok API. Create a file called **storyblok.js** inside a folder called **lib**, with the following code.
 
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yxblr57xvy8zpphglicg.png)
