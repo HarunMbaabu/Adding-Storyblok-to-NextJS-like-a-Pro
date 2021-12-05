@@ -221,10 +221,8 @@ To load the right components in Next.js, we will need a dynamic component, that 
 ---
 ### **Showing the dynamic components.** 
 ---
-To display the components, we will need to load them in our return function in the pages/index.js file (see Line 24): 
-
-
-Once you loaded the components you should be able to see the available components in your Storyblok Live Preview. It should show the Grid component {1} and the Teaser component {2}. If you change their order in Storyblok and click Save, they should dynamically switch their order on the page. 
+To display the components, we will need to load them in our return function in the pages/index.js file and once you loaded the components you should be able to see the available components in your Storyblok Live Preview.
+It should show the Grid component and the Teaser component. If you change their order in Storyblok and click Save, they should dynamically switch their order on the page. 
 
 ---
 ### **Now what?** 
