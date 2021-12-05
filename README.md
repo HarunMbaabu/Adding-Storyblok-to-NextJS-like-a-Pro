@@ -81,9 +81,12 @@ Now, you can open your browser in http://localhost:3000 and you should see the f
  
 If you can see the following screen on your browser congratulations🎊 you have created your hello world NextJS application. Now let connect you NextJS application to a Storyblok story. 
 
+---
 ### **Integrating NextJS with our headless CSM, Storyblok.** 
+---
 
-Next, we have to create a connection to the headless CMS, for our case Storyblok and to do this we have to connect our NextJS app to Storyblok and enable the Visual Editor. According to the official documentation, **the Visual Editor enables your editors to edit their content with an in context preview, including the possibility to click on Components in their website.**
+Next, we have to create a connection to the headless CMS, for our case Storyblok and to do this we have to connect our NextJS app to Storyblok and enable the Visual Editor, if time allows us.
+According to the official documentation, **the Visual Editor enables your editors to edit their content with an in context preview, including the possibility to click on Components in their website.**
 
 To integrate with storyblok we need two file, the **DynamicComponent.js** and **Storyblok.js** files, the DynamicComponent file should be created inside **components** folder while Storyblok.js file should be created inside the **lib** folder and imported in the main file as shown below 👇🏻.
 
@@ -180,42 +183,51 @@ We need to set the Real Path to / {2} because we want to display the story with 
 
 ### **Creating the components**
 In the next step, we have to create the components that already exist in the Home story: Page, Teaser, Grid and Feature. Create a new folder components with the following files:
-
+---
 **1). components/Page.js**
+---
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/neco2vmp922n4msys9ca.jpg) 
-
+---
 **2). components/Teaser.js** 
+---
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/86xs8aellql5snpj8tle.png)
 
+---
 **3). components/Grid.js **
+---
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/osc81u38t710ggdkfasc.png)
 
-**4). components/Feature.js **  
+---
+**4). components/Feature.js ** 
+---
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hgxwivt5vagpl9qi5mvv.png)
 
 By using sbEditable with any component, we can make them loaded and clickable in Storyblok Visual Editor. To do it we should include the already installed @storyblok/storyblok-editable package.
 
+---
 ### **Loading Components dynamically**
+---
 To load the right components in Next.js, we will need a dynamic component, that can resolve the component names we get from Storyblok API to the actual components in our Next.js application. Let's create a file DynamicComponent.js inside our components folder with the following code:
 
 
-
+---
 ### **Showing the dynamic components.** 
+---
 To display the components, we will need to load them in our return function in the pages/index.js file (see Line 24): 
 
 
 Once you loaded the components you should be able to see the available components in your Storyblok Live Preview. It should show the Grid component {1} and the Teaser component {2}. If you change their order in Storyblok and click Save, they should dynamically switch their order on the page. 
 
-
+---
 ### **Now what?** 
-
+---
 Stop procrastinating! Get out there and start creating amazing content leveraging Headless CMS and NextJS. 
 
 ![stop procrastinating](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4fnomw2jy7rdb4rl9jfj.png)
 
-
+---
 ### **Wrapping up** 
- 
+---
 In this article, we’ve loaded our content from Storyblok to NextJS, but we aren't able to directly select and edit the different components. There are very many tutorials out there that you can use to learn and master Storybloc, headless CMS and NextJS. 
 
 Also i would advice that you take your skills to the next step and learn how to take your stories to production using services like, Netlify, digital ocean's app platform, heroku, vercel, etc.  
