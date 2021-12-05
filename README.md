@@ -189,9 +189,10 @@ Let's open our Home Story now by clicking on Content and then the Home Story.
 We need to set the Real Path to because we want to display the story with the slug home under our base path / and not /home. Once you set the preview URL and the real path, you should be able to see your development server inside Storyblok showing the name of the story Home. 
 
 
-### **Creating the components**
+### **Creating the components** 
 
 In the next step, we have to create the components that already exist in the Home story: Page, Teaser, Grid and Feature. Create a new folder components with the following files:
+
 ---
 **1). components/Page.js**
 ---
