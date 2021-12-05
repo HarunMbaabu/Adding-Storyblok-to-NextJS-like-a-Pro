@@ -52,7 +52,7 @@ Let's start by creating a new NextJS application, you can use npx or yarn to cre
 
 ```javascript
 >>> npx create-next-app demoapp
-
+/* OR */
 >>> yarn create next-app demoapp
 ``` 
 
